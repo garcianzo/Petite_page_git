@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header, section, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+#header {
+    background-color: #3CB371;
+    color: white;
+}
+
+#fotos {
+    background-color: #eee;
+}
+
+.coeur {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.membre1, .membre2, .membre3, .membre4 {
+    width: 45%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px;
+}
+
+.membre1 img, .membre2 img, .membre3 img, .membre4 img {
+    width: 100%;
+    border-radius: 50%; /* Para hacer las imágenes redondas */
+}
+
+footer {
+    background-color: #3CB371;
+    color: white;
+}
