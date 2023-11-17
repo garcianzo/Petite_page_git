@@ -31,6 +31,7 @@ body {
 }
 
 .membre1 img, .membre2 img, .membre3 img, .membre4 img {
+    height: 70%;
     width: 100%;
     border-radius: 50%; /* Para hacer las imágenes redondas */
 }
